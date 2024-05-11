@@ -1,0 +1,163 @@
+*{
+  text-align: center;
+  color: #fff;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Seccion 1 */
+.seccion1 {
+  background-image: url(../img/banner1.jpg);
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.8);
+  padding: 150px 0;
+}
+
+.seccion1 h1{
+  font-weight: bolder;
+  font-size: 6rem;
+  text-align: center;
+}
+
+/* Seccion 2 */
+
+ .line2{
+  object-fit: cover;
+  width: 100%;
+
+ }
+
+.seccion2{
+  padding: 100px 0;
+}
+
+.seccion2 h1{
+  font-size: 3.5rem;  
+  color: #000;
+  font-weight: lighter;
+  font-style: oblique;
+}
+
+.grid-container2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;  
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .grid-container2 {
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+}
+
+.grid-items2{
+  background-color: #0c0c73;
+  border-radius: 5%;
+  height: 300px;
+  display: grid;
+  align-items: center;
+ 
+}
+
+/* Seccion 3 */
+.seccion3 {
+  background-image: url(../img/banner2.jpg);
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.8);
+  padding: 150px 0;
+}
+
+.seccion3 h2{
+  font-size: 4.5rem;
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+  font-style: oblique;
+}
+
+
+/* Seccion 4 */
+
+.seccion4 h1{
+  font-size: 3.5rem;  
+  color: #000;
+  font-weight: lighter;
+  font-style: oblique;
+}
+
+.seccion4{
+  padding: 150px 0;
+}
+
+.list-background {
+  background-color: #0c0c73;
+  color: #fff;
+}
+
+.card-body > button{
+ width: 8rem;
+ padding: 1rem 1rem;
+ font-weight: bold;
+ font-size: 14px;
+}
+
+.card-body a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.card-body p{
+  color: #000;
+  padding-top: 15px;
+}
+
+/* Seccion 5 */
+
+.seccion5{
+  background-image: url(../img/banner3.jpg);
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.8);
+  padding: 150px 0;
+}
+
+.seccion5 h2{
+  font-size: 4.5rem;
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+  font-style: oblique;
+}
+
+/* Seccion 6 */
+
+.seccion6 h1{
+  font-size: 3.5rem;  
+  color: #000;
+  font-weight: lighter;
+  font-style: oblique;
+}
+
+.seccion6{
+  padding: 150px 0;
+}
+
+.fit-object6{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+
+}
+
+.lol{
+  background-color: red;
+}
+
+.lal{
+  background-color: blue;
+}
+
+/* Footer */
+
+footer{
+  background-color: #000;
+}
