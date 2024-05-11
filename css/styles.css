@@ -23,10 +23,10 @@
 /* Seccion 2 */
 
  .line2{
-  object-fit: cover;
-  width: 100%;
-
+    object-fit: cover;
+    width: 18rem;
  }
+
 
 .seccion2{
   padding: 100px 0;
@@ -37,6 +37,7 @@
   color: #000;
   font-weight: lighter;
   font-style: oblique;
+  
 }
 
 .grid-container2{
@@ -112,6 +113,12 @@
   padding-top: 15px;
 }
 
+.line4{
+  object-fit: cover;
+  width: 10rem;
+}
+
+
 /* Seccion 5 */
 
 .seccion5{
@@ -147,15 +154,6 @@
   height: 100%;
 
 }
-
-.lol{
-  background-color: red;
-}
-
-.lal{
-  background-color: blue;
-}
-
 /* Footer */
 
 footer{
